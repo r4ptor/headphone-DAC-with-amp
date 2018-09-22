@@ -30,18 +30,4 @@ The project is realized with the open source EDA tool [KiCad](https://kicad-pcb.
 
 ![alt text](https://github.com/r4ptor/headphone-DAC-with-amp/blob/master/raytraced.png)
 
-## Steps done/to be done
 
-[x] Source parts
-
-[x] Design the schematic
-
-[x] Create a basic PCB layout
-
-[ ] Optimize component placement for size
-
-[ ] Optimize routing for EMV stability
-
-[ ] Get the PCB manufactured
-
-[ ] Solder the whole damn thing
