@@ -1319,17 +1319,6 @@ $EndComp
 Wire Wire Line
 	10850 1850 10950 1850
 Connection ~ 10950 1850
-$Comp
-L Connector:AudioJack3_Ground J3
-U 1 1 5C3A214D
-P 14900 7050
-F 0 "J3" H 14667 6979 50  0000 R CNN
-F 1 "AudioJack3_Ground" H 14667 7070 50  0000 R CNN
-F 2 "Connectors:Stereo_Jack_3.5mm_Switch_Ledino_KB3SPRS" H 14900 7050 50  0001 C CNN
-F 3 "~" H 14900 7050 50  0001 C CNN
-	1    14900 7050
-	-1   0    0    1   
-$EndComp
 Text GLabel 14450 7050 0    50   Input ~ 0
 OUTR
 Text GLabel 14450 6900 0    50   Input ~ 0
@@ -1342,10 +1331,6 @@ Wire Wire Line
 	14650 6950 14700 6950
 Wire Wire Line
 	14450 7050 14700 7050
-Wire Wire Line
-	14600 7300 14600 7150
-Wire Wire Line
-	14600 7150 14700 7150
 Text Notes 1100 1100 0    50   ~ 0
 USB TO I2S\n5V supply\n
 Text Notes 1100 5050 0    50   ~ 0
@@ -1685,13 +1670,13 @@ $EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 5BF1D8C1
-P 14600 7300
-F 0 "#PWR021" H 14600 7050 50  0001 C CNN
-F 1 "GND" V 14605 7172 50  0000 R CNN
-F 2 "" H 14600 7300 50  0001 C CNN
-F 3 "" H 14600 7300 50  0001 C CNN
-	1    14600 7300
-	1    0    0    -1  
+P 14650 6650
+F 0 "#PWR021" H 14650 6400 50  0001 C CNN
+F 1 "GND" V 14655 6522 50  0000 R CNN
+F 2 "" H 14650 6650 50  0001 C CNN
+F 3 "" H 14650 6650 50  0001 C CNN
+	1    14650 6650
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR014
@@ -1861,4 +1846,19 @@ F 3 "" H 2350 7400 50  0001 C CNN
 $EndComp
 Text GLabel 5400 3650 2    50   Input ~ 0
 CLK_N
+$Comp
+L Connector:AudioJack3_Ground J3
+U 1 1 5BA93843
+P 14900 6950
+F 0 "J3" H 14667 6971 50  0000 R CNN
+F 1 "AudioJack3_Ground" H 14667 6880 50  0000 R CNN
+F 2 "Connectors:Stereo_Jack_3.5mm_Switch_Ledino_KB3SPRS" H 14900 6950 50  0001 C CNN
+F 3 "~" H 14900 6950 50  0001 C CNN
+	1    14900 6950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14650 6650 14650 6850
+Wire Wire Line
+	14650 6850 14700 6850
 $EndSCHEMATC
