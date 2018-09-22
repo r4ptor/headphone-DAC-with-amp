@@ -25,3 +25,7 @@ The project is realized with the open source EDA tool [KiCad](https://kicad-pcb.
 [LM2662M](http://www.ti.com/lit/ds/symlink/lm2662.pdf) Voltage converter
 
 [OPA2134PA](http://www.ti.com/lit/ds/symlink/opa2134.pdf) Operational amplifier
+
+## Rendered picture of the current PCB layout
+
+![alt text](https://github.com/r4ptor/headphone-DAC-with-amp/blob/master/raytraced.png)
