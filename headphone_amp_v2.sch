@@ -25,40 +25,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/pcm2706.pdf" H 3850 2131 60  0001 C CNN
 	1    2450 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R3
-U 1 1 5BC438F2
-P 5800 2750
-F 0 "R3" V 5593 2750 50  0000 C CNN
-F 1 "22R" V 5684 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5730 2750 50  0001 C CNN
-F 3 "~" H 5800 2750 50  0001 C CNN
-	1    5800 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5950 2750 6450 2750
 Wire Wire Line
 	6950 2750 6950 2850
 Wire Wire Line
-	6950 2850 7050 2850
-$Comp
-L Device:R R4
-U 1 1 5BC439B8
-P 6150 2850
-F 0 "R4" V 5943 2850 50  0000 C CNN
-F 1 "22R" V 6034 2850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6080 2850 50  0001 C CNN
-F 3 "~" H 6150 2850 50  0001 C CNN
-	1    6150 2850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6300 2850 6850 2850
-Wire Wire Line
 	6850 2850 6850 2950
-Wire Wire Line
-	6850 2950 7050 2950
 Wire Wire Line
 	6450 2500 6450 2750
 Connection ~ 6450 2750
@@ -95,8 +65,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 3350 7000 3250
 Connection ~ 7000 3250
-Wire Wire Line
-	7000 3250 7350 3250
 $Comp
 L Device:C C7
 U 1 1 5BC444C9
@@ -143,10 +111,6 @@ F 3 "~" H 5600 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 2350 5600 2350
-Wire Wire Line
-	5250 2750 5650 2750
-Wire Wire Line
-	5250 2850 6000 2850
 Wire Wire Line
 	5250 2950 5700 2950
 Wire Wire Line
@@ -388,7 +352,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps60503.pdf" H 10250 1950 50  0001 C CNN
 	1    10250 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7100 2300 3    50   Input ~ 0
+Text GLabel 6700 2300 3    50   Input ~ 0
 5V
 Text GLabel 9150 1850 3    50   Input ~ 0
 5V
@@ -1342,8 +1306,8 @@ NoConn ~ 9600 8250
 NoConn ~ 9600 5850
 NoConn ~ 13000 5850
 NoConn ~ 13000 8250
-NoConn ~ 7450 3250
-NoConn ~ 7050 3050
+NoConn ~ 7800 3250
+NoConn ~ 7400 3050
 NoConn ~ 5250 2150
 NoConn ~ 5250 2250
 NoConn ~ 2450 2150
@@ -1351,12 +1315,12 @@ NoConn ~ 2450 3150
 $Comp
 L Connector:USB_OTG J1
 U 1 1 5BA8630E
-P 7350 2850
-F 0 "J1" H 7120 2841 50  0000 R CNN
-F 1 "USB_OTG" H 7120 2750 50  0000 R CNN
-F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521_CircularHoles" H 7500 2800 50  0001 C CNN
-F 3 " ~" H 7500 2800 50  0001 C CNN
-	1    7350 2850
+P 7700 2850
+F 0 "J1" H 7470 2841 50  0000 R CNN
+F 1 "USB_OTG" H 7470 2750 50  0000 R CNN
+F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521_CircularHoles" H 7850 2800 50  0001 C CNN
+F 3 " ~" H 7850 2800 50  0001 C CNN
+	1    7700 2850
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 13000 8550
@@ -1447,14 +1411,6 @@ F 3 "~" H 1250 6000 50  0001 C CNN
 	1    1250 6000
 	0    1    1    0   
 $EndComp
-Text Label 5400 2750 0    50   ~ 0
-D+
-Text Label 5400 2850 0    50   ~ 0
-D-
-Text Label 7050 2850 0    50   ~ 0
-D+
-Text Label 7000 2950 0    50   ~ 0
-D-
 Wire Wire Line
 	2050 5450 3300 5450
 Wire Wire Line
@@ -1482,15 +1438,6 @@ Wire Wire Line
 Connection ~ 11050 1850
 Wire Wire Line
 	11050 1850 11200 1850
-Wire Wire Line
-	6950 2650 7000 2650
-Wire Wire Line
-	7000 2650 7050 2650
-Connection ~ 7000 2650
-Wire Wire Line
-	7000 2300 7000 2650
-Wire Wire Line
-	6550 2650 6600 2650
 Wire Wire Line
 	5250 2650 6550 2650
 Connection ~ 6550 2650
@@ -1856,8 +1803,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 4800 3700 4800
 Wire Wire Line
-	7000 2300 7100 2300
-Wire Wire Line
 	13250 6050 13250 6200
 Wire Wire Line
 	13150 6050 13250 6050
@@ -1900,28 +1845,14 @@ $EndComp
 $Comp
 L Connector:TestPoint_Probe TP1
 U 1 1 5BA83EAD
-P 7100 2300
-F 0 "TP1" H 7253 2402 50  0000 L CNN
-F 1 "TestPoint_Probe" H 7253 2311 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7300 2300 50  0001 C CNN
-F 3 "~" H 7300 2300 50  0001 C CNN
-	1    7100 2300
+P 6700 2300
+F 0 "TP1" H 6853 2402 50  0000 L CNN
+F 1 "+5V" H 6853 2311 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6900 2300 50  0001 C CNN
+F 3 "~" H 6900 2300 50  0001 C CNN
+	1    6700 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint_Probe TP12
-U 1 1 5BA862BA
-P 6600 2650
-F 0 "TP12" H 6753 2752 50  0000 L CNN
-F 1 "TestPoint_Probe" H 6753 2661 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6800 2650 50  0001 C CNN
-F 3 "~" H 6800 2650 50  0001 C CNN
-	1    6600 2650
-	1    0    0    -1  
-$EndComp
-Connection ~ 6600 2650
-Wire Wire Line
-	6600 2650 6650 2650
 $Comp
 L Connector:TestPoint_Probe TP10
 U 1 1 5BA86536
@@ -1983,7 +1914,7 @@ L Connector:TestPoint_Probe TP4
 U 1 1 5BA871C2
 P 2250 5300
 F 0 "TP4" H 2403 5402 50  0000 L CNN
-F 1 "TestPoint_Probe" H 2403 5311 50  0000 L CNN
+F 1 "+5V" H 2403 5311 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2450 5300 50  0001 C CNN
 F 3 "~" H 2450 5300 50  0001 C CNN
 	1    2250 5300
@@ -1997,7 +1928,7 @@ L Connector:TestPoint_Probe TP6
 U 1 1 5BA87538
 P 3600 5600
 F 0 "TP6" H 3753 5702 50  0000 L CNN
-F 1 "TestPoint_Probe" H 3753 5611 50  0000 L CNN
+F 1 "+5V" H 3753 5611 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3800 5600 50  0001 C CNN
 F 3 "~" H 3800 5600 50  0001 C CNN
 	1    3600 5600
@@ -2011,7 +1942,7 @@ L Connector:TestPoint_Probe TP8
 U 1 1 5BA87736
 P 3750 5550
 F 0 "TP8" H 3903 5652 50  0000 L CNN
-F 1 "TestPoint_Probe" H 3903 5561 50  0000 L CNN
+F 1 "+5V" H 3903 5561 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3950 5550 50  0001 C CNN
 F 3 "~" H 3950 5550 50  0001 C CNN
 	1    3750 5550
@@ -2067,7 +1998,7 @@ L Connector:TestPoint_Probe TP15
 U 1 1 5BA88225
 P 13050 5950
 F 0 "TP15" H 13203 6052 50  0000 L CNN
-F 1 "TestPoint_Probe" H 13203 5961 50  0000 L CNN
+F 1 "+5V" H 13203 5961 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 13250 5950 50  0001 C CNN
 F 3 "~" H 13250 5950 50  0001 C CNN
 	1    13050 5950
@@ -2104,4 +2035,120 @@ $EndComp
 Connection ~ 14950 1700
 Wire Wire Line
 	14950 1700 15100 1700
+Wire Wire Line
+	6950 2650 7050 2650
+Wire Wire Line
+	6550 2650 6600 2650
+Wire Wire Line
+	6600 2650 6600 2300
+Wire Wire Line
+	6600 2300 6700 2300
+Connection ~ 6600 2650
+Wire Wire Line
+	6600 2650 6650 2650
+Wire Wire Line
+	7000 3250 7700 3250
+Wire Wire Line
+	6850 2950 7400 2950
+Wire Wire Line
+	6950 2850 7400 2850
+$Comp
+L Device:Polyfuse F1
+U 1 1 5BB2CBE8
+P 7200 2650
+F 0 "F1" V 6975 2650 50  0000 C CNN
+F 1 "Polyfuse" V 7066 2650 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" H 7250 2450 50  0001 L CNN
+F 3 "~" H 7200 2650 50  0001 C CNN
+	1    7200 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 2650 7400 2650
+$Comp
+L Connector:TestPoint_Probe TP18
+U 1 1 5BB61DCD
+P 13850 3800
+F 0 "TP18" H 14003 3902 50  0000 L CNN
+F 1 "TestPoint_Probe" H 14003 3811 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14050 3800 50  0001 C CNN
+F 3 "~" H 14050 3800 50  0001 C CNN
+	1    13850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5BB61EBF
+P 13850 4000
+F 0 "#PWR025" H 13850 3750 50  0001 C CNN
+F 1 "GND" H 13855 3827 50  0000 C CNN
+F 2 "" H 13850 4000 50  0001 C CNN
+F 3 "" H 13850 4000 50  0001 C CNN
+	1    13850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 3800 13850 4000
+$Comp
+L power:GND #PWR024
+U 1 1 5BB96490
+P 13650 4000
+F 0 "#PWR024" H 13650 3750 50  0001 C CNN
+F 1 "GND" H 13655 3827 50  0000 C CNN
+F 2 "" H 13650 4000 50  0001 C CNN
+F 3 "" H 13650 4000 50  0001 C CNN
+	1    13650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP12
+U 1 1 5BB96549
+P 13650 3800
+F 0 "TP12" H 13803 3902 50  0000 L CNN
+F 1 "TestPoint_Probe" H 13803 3811 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 13850 3800 50  0001 C CNN
+F 3 "~" H 13850 3800 50  0001 C CNN
+	1    13650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 3800 13650 4000
+Wire Wire Line
+	5250 2850 6000 2850
+Wire Wire Line
+	6300 2850 6850 2850
+Wire Wire Line
+	5250 2750 5650 2750
+Wire Wire Line
+	5950 2750 6450 2750
+$Comp
+L Device:R R4
+U 1 1 5BC439B8
+P 6150 2850
+F 0 "R4" V 5943 2850 50  0000 C CNN
+F 1 "22R" V 6034 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6080 2850 50  0001 C CNN
+F 3 "~" H 6150 2850 50  0001 C CNN
+	1    6150 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5BC438F2
+P 5800 2750
+F 0 "R3" V 5593 2750 50  0000 C CNN
+F 1 "22R" V 5684 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5730 2750 50  0001 C CNN
+F 3 "~" H 5800 2750 50  0001 C CNN
+	1    5800 2750
+	0    1    1    0   
+$EndComp
+Text Label 7400 2950 0    50   ~ 0
+D-
+Text Label 7400 2850 0    50   ~ 0
+D+
+Text Label 5250 2850 0    50   ~ 0
+D-
+Text Label 5250 2750 0    50   ~ 0
+D+
 $EndSCHEMATC
