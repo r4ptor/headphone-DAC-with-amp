@@ -30,7 +30,8 @@ P 6450 2350
 F 0 "R5" H 6520 2396 50  0000 L CNN
 F 1 "1.5k" H 6520 2305 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6380 2350 50  0001 C CNN
-F 3 "~" H 6450 2350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6450 2350 50  0001 C CNN
+F 4 " RNCP0805FTD1K50 " H 0   0   50  0001 C CNN "Part number"
 	1    6450 2350
 	1    0    0    -1  
 $EndComp
@@ -43,7 +44,8 @@ P 6750 3250
 F 0 "C8" V 6498 3250 50  0000 C CNN
 F 1 "1uF" V 6589 3250 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6788 3100 50  0001 C CNN
-F 3 "~" H 6750 3250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6750 3250 50  0001 C CNN
+F 4 " CC0805KKX7R6BB105 " H 0   0   50  0001 C CNN "Part number"
 	1    6750 3250
 	0    1    1    0   
 $EndComp
@@ -61,7 +63,8 @@ P 5700 3100
 F 0 "C7" H 5815 3146 50  0000 L CNN
 F 1 "1uF" H 5815 3055 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5738 2950 50  0001 C CNN
-F 3 "~" H 5700 3100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5700 3100 50  0001 C CNN
+F 4 " CC0805KKX7R6BB105 " H 0   0   50  0001 C CNN "Part number"
 	1    5700 3100
 	1    0    0    -1  
 $EndComp
@@ -83,7 +86,8 @@ P 5600 2200
 F 0 "C6" H 5715 2246 50  0000 L CNN
 F 1 "1uF" H 5715 2155 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5638 2050 50  0001 C CNN
-F 3 "~" H 5600 2200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5600 2200 50  0001 C CNN
+F 4 " CC0805KKX7R6BB105 " H 0   0   50  0001 C CNN "Part number"
 	1    5600 2200
 	1    0    0    -1  
 $EndComp
@@ -94,7 +98,8 @@ P 5600 1650
 F 0 "C5" H 5715 1696 50  0000 L CNN
 F 1 "1uF" H 5715 1605 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5638 1500 50  0001 C CNN
-F 3 "~" H 5600 1650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5600 1650 50  0001 C CNN
+F 4 " CC0805KKX7R6BB105 " H 0   0   50  0001 C CNN "Part number"
 	1    5600 1650
 	1    0    0    -1  
 $EndComp
@@ -144,7 +149,8 @@ P 4700 1150
 F 0 "C4" V 4448 1150 50  0000 C CNN
 F 1 "10uF" V 4539 1150 50  0000 C CNN
 F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 4700 1150 50  0001 C CNN
-F 3 "~" H 4700 1150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 4700 1150 50  0001 C CNN
+F 4 " EEE-1VA100SR " H 0   0   50  0001 C CNN "Part number"
 	1    4700 1150
 	0    1    1    0   
 $EndComp
@@ -163,7 +169,8 @@ P 1950 1950
 F 0 "C3" V 1698 1950 50  0000 C CNN
 F 1 "1uF" V 1789 1950 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1988 1800 50  0001 C CNN
-F 3 "~" H 1950 1950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1950 1950 50  0001 C CNN
+F 4 " CC0805KKX7R6BB105 " H 0   0   50  0001 C CNN "Part number"
 	1    1950 1950
 	0    1    1    0   
 $EndComp
@@ -191,7 +198,8 @@ P 2000 3100
 F 0 "R1" H 1930 3054 50  0000 R CNN
 F 1 "1M" H 1930 3145 50  0000 R CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1930 3100 50  0001 C CNN
-F 3 "~" H 2000 3100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2000 3100 50  0001 C CNN
+F 4 " ERA-6AEB105V " H 0   0   50  0001 C CNN "Part number"
 	1    2000 3100
 	-1   0    0    1   
 $EndComp
@@ -202,7 +210,8 @@ P 1750 3100
 F 0 "Y1" V 1750 3368 50  0000 C CNN
 F 1 "12Mhz" H 1750 3277 50  0000 C CNN
 F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm" H 1750 3100 50  0001 C CNN
-F 3 "~" H 1750 3100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/CX5032GB_(CX-53F)_DS.pdf" H 1750 3100 50  0001 C CNN
+F 4 " CX5032GB12000H0PESZZ " H 0   0   50  0001 C CNN "Part number"
 	1    1750 3100
 	0    -1   -1   0   
 $EndComp
@@ -213,7 +222,8 @@ P 1300 2950
 F 0 "C1" V 1048 2950 50  0000 C CNN
 F 1 "22pF" V 1139 2950 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 2800 50  0001 C CNN
-F 3 "~" H 1300 2950 50  0001 C CNN
+F 3 "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0001944187/AVXC-S-A0001944187-1.pdf" H 1300 2950 50  0001 C CNN
+F 4 " 08051A220KAT2A " H 0   0   50  0001 C CNN "Part number"
 	1    1300 2950
 	0    1    1    0   
 $EndComp
@@ -224,7 +234,8 @@ P 1300 3250
 F 0 "C2" V 1048 3250 50  0000 C CNN
 F 1 "22pF" V 1139 3250 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 3100 50  0001 C CNN
-F 3 "~" H 1300 3250 50  0001 C CNN
+F 3 "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0001944187/AVXC-S-A0001944187-1.pdf" H 1300 3250 50  0001 C CNN
+F 4 " 08051A220KAT2A " H 0   0   50  0001 C CNN "Part number"
 	1    1300 3250
 	0    1    1    0   
 $EndComp
@@ -264,7 +275,8 @@ P 2350 3700
 F 0 "R2" H 2420 3746 50  0000 L CNN
 F 1 "1.5k" H 2420 3655 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2280 3700 50  0001 C CNN
-F 3 "~" H 2350 3700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 2350 3700 50  0001 C CNN
+F 4 " RNCP0805FTD1K50 " H 0   0   50  0001 C CNN "Part number"
 	1    2350 3700
 	1    0    0    -1  
 $EndComp
@@ -304,6 +316,7 @@ F 0 "U2" H 2250 7378 50  0000 C CNN
 F 1 "PCM1794A" H 2250 7287 50  0000 C CNN
 F 2 "PCM1794:PCM1794ADBG4" H 2250 6400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/pcm1794a.pdf" H 2250 6400 50  0001 C CNN
+F 4 " PCM1794ADBR " H 0   0   50  0001 C CNN "Part number"
 	1    2250 6400
 	1    0    0    -1  
 $EndComp
@@ -314,7 +327,8 @@ P 3800 7600
 F 0 "C12" V 3548 7600 50  0000 C CNN
 F 1 "0.1uF" V 3639 7600 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3838 7450 50  0001 C CNN
-F 3 "~" H 3800 7600 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3800 7600 50  0001 C CNN
+F 4 " CL21F104ZBCNNNC " H 0   0   50  0001 C CNN "Part number"
 	1    3800 7600
 	1    0    0    -1  
 $EndComp
@@ -325,24 +339,26 @@ P 4200 7600
 F 0 "C13" V 3948 7600 50  0000 C CNN
 F 1 "10uF" V 4039 7600 50  0000 C CNN
 F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 4200 7600 50  0001 C CNN
-F 3 "~" H 4200 7600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 4200 7600 50  0001 C CNN
+F 4 " EEE-1VA100SR " H 0   0   50  0001 C CNN "Part number"
 	1    4200 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Regulator_SwitchedCapacitor:TPS60501DGS U3
 U 1 1 5BC912FB
-P 10250 1950
-F 0 "U3" H 10250 1464 50  0000 C CNN
-F 1 "TPS60501DGS" H 10250 1373 50  0000 C CNN
-F 2 "TPS60501:TPS60501DGSG4" H 10350 1500 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tps60503.pdf" H 10250 1950 50  0001 C CNN
-	1    10250 1950
+P 9550 2200
+F 0 "U3" H 9550 1714 50  0000 C CNN
+F 1 "TPS60501DGS" H 9550 1623 50  0000 C CNN
+F 2 "TPS60501:TPS60501DGSG4" H 9650 1750 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps60503.pdf" H 9550 2200 50  0001 C CNN
+F 4 " TPS60501DGSR " H -700 250 50  0001 C CNN "Part number"
+	1    9550 2200
 	1    0    0    -1  
 $EndComp
 Text GLabel 6700 2300 3    50   Input ~ 0
 5V
-Text GLabel 9150 1850 3    50   Input ~ 0
+Text GLabel 8450 2100 3    50   Input ~ 0
 5V
 $Comp
 L Device:Ferrite_Bead L1
@@ -351,83 +367,86 @@ P 6800 2650
 F 0 "L1" V 6526 2650 50  0000 C CNN
 F 1 "1A" V 6617 2650 50  0000 C CNN
 F 2 "Inductors_SMD:L_0805_HandSoldering" V 6730 2650 50  0001 C CNN
-F 3 "~" H 6800 2650 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS470-T&fileName=BK2125HS470-T_SS&mode=specSheetDownload" H 6800 2650 50  0001 C CNN
+F 4 " BK2125HS470-T " H 0   0   50  0001 C CNN "Part number"
 	1    6800 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C19
 U 1 1 5BCA3622
-P 10000 1100
-F 0 "C19" V 9748 1100 50  0000 C CNN
-F 1 "1uF" V 9839 1100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10038 950 50  0001 C CNN
-F 3 "~" H 10000 1100 50  0001 C CNN
-F 4 "LMK212BJ105KG" V 10000 1100 50  0001 C CNN "part number"
-	1    10000 1100
+P 9300 1350
+F 0 "C19" V 9048 1350 50  0000 C CNN
+F 1 "1uF" V 9139 1350 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9338 1200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9300 1350 50  0001 C CNN
+F 4 "" V 9300 1350 50  0001 C CNN "part number"
+F 5 " CC0805KKX7R6BB105 " H -700 250 50  0001 C CNN "Part number"
+	1    9300 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C20
 U 1 1 5BCA36E0
-P 10500 1100
-F 0 "C20" V 10248 1100 50  0000 C CNN
-F 1 "1uF" V 10339 1100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10538 950 50  0001 C CNN
-F 3 "~" H 10500 1100 50  0001 C CNN
-F 4 "LMK212BJ105KG" V 10500 1100 50  0001 C CNN "part number"
-	1    10500 1100
+P 9800 1350
+F 0 "C20" V 9548 1350 50  0000 C CNN
+F 1 "1uF" V 9639 1350 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9838 1200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9800 1350 50  0001 C CNN
+F 4 "" V 9800 1350 50  0001 C CNN "part number"
+F 5 " CC0805KKX7R6BB105 " H -700 250 50  0001 C CNN "Part number"
+	1    9800 1350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9850 1100 9850 1450
+	9150 1350 9150 1700
 Wire Wire Line
-	10150 1100 10150 1450
+	9450 1350 9450 1700
 Wire Wire Line
-	10350 1100 10350 1450
+	9650 1350 9650 1700
 Wire Wire Line
-	10650 1100 10650 1450
+	9950 1350 9950 1700
 Wire Wire Line
-	9150 1850 9350 1850
+	8450 2100 8650 2100
 $Comp
 L Device:C C18
 U 1 1 5BCBBF7F
-P 9350 2050
-F 0 "C18" H 9465 2096 50  0000 L CNN
-F 1 "2.2uF" H 9465 2005 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9388 1900 50  0001 C CNN
-F 3 "~" H 9350 2050 50  0001 C CNN
-F 4 "EMK316BJ225KL" H 9350 2050 50  0001 C CNN "Part number"
-	1    9350 2050
+P 8650 2300
+F 0 "C18" H 8765 2346 50  0000 L CNN
+F 1 "2.2uF" H 8765 2255 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8688 2150 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C225K8RACTU.pdf" H 8650 2300 50  0001 C CNN
+F 4 " C0805C225K8RACTU " H 8650 2300 50  0001 C CNN "Part number"
+	1    8650 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 2200 9350 2300
+	8650 2450 8650 2550
 Wire Wire Line
-	9350 1900 9350 1850
-Connection ~ 9350 1850
+	8650 2150 8650 2100
+Connection ~ 8650 2100
 Wire Wire Line
-	9350 1850 9650 1850
+	8650 2100 8950 2100
 Wire Wire Line
-	10250 2350 10250 2650
+	9550 2600 9550 2900
 Wire Wire Line
-	10850 2050 11050 2050
+	10150 2300 10350 2300
 $Comp
 L Device:C C21
 U 1 1 5BCCCD6E
-P 10950 1600
-F 0 "C21" H 11065 1646 50  0000 L CNN
-F 1 "10uF" H 11065 1555 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 10988 1450 50  0001 C CNN
-F 3 "~" H 10950 1600 50  0001 C CNN
-F 4 "JMK316BJ106KL" H 10950 1600 50  0001 C CNN "Part number"
-	1    10950 1600
+P 10250 1850
+F 0 "C21" H 10365 1896 50  0000 L CNN
+F 1 "10uF" H 10365 1805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10288 1700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KPFNNNG.jsp" H 10250 1850 50  0001 C CNN
+F 4 " CL21A106KPFNNNG " H 10250 1850 50  0001 C CNN "Part number"
+	1    10250 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10950 1750 10950 1850
+	10250 2000 10250 2100
 Wire Wire Line
-	10950 1100 10950 1450
+	10250 1350 10250 1700
 $Comp
 L Device:CP1 C9
 U 1 1 5BCED9D0
@@ -435,7 +454,8 @@ P 2600 5100
 F 0 "C9" H 2715 5146 50  0000 L CNN
 F 1 "47uF" H 2715 5055 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 2600 5100 50  0001 C CNN
-F 3 "~" H 2600 5100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 2600 5100 50  0001 C CNN
+F 4 " EEE-1CA470WR " H 0   0   50  0001 C CNN "Part number"
 	1    2600 5100
 	1    0    0    -1  
 $EndComp
@@ -445,8 +465,9 @@ U 1 1 5BCEDAA2
 P 3500 5100
 F 0 "C11" H 3615 5146 50  0000 L CNN
 F 1 "10uF" H 3615 5055 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 3500 5100 50  0001 C CNN
-F 3 "~" H 3500 5100 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 3500 5100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 3500 5100 50  0001 C CNN
+F 4 " EEE-1VA100SR " H 0   0   50  0001 C CNN "Part number"
 	1    3500 5100
 	1    0    0    -1  
 $EndComp
@@ -478,7 +499,8 @@ P 3050 5100
 F 0 "C10" H 3165 5146 50  0000 L CNN
 F 1 "47uF" H 3165 5055 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 3050 5100 50  0001 C CNN
-F 3 "~" H 3050 5100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 3050 5100 50  0001 C CNN
+F 4 " EEE-1CA470WR " H 0   0   50  0001 C CNN "Part number"
 	1    3050 5100
 	1    0    0    -1  
 $EndComp
@@ -494,9 +516,10 @@ L Device:C C14
 U 1 1 5BD2452D
 P 5300 6700
 F 0 "C14" H 5415 6746 50  0000 L CNN
-F 1 "0.1u" H 5415 6655 50  0000 L CNN
+F 1 "0.1uF" H 5415 6655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5338 6550 50  0001 C CNN
-F 3 "~" H 5300 6700 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5300 6700 50  0001 C CNN
+F 4 " CL21F104ZBCNNNC " H 0   0   50  0001 C CNN "Part number"
 	1    5300 6700
 	1    0    0    -1  
 $EndComp
@@ -506,8 +529,9 @@ U 1 1 5BD24B6D
 P 5300 7150
 F 0 "C15" H 5415 7196 50  0000 L CNN
 F 1 "10uF" H 5415 7105 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 5300 7150 50  0001 C CNN
-F 3 "~" H 5300 7150 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 5300 7150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 5300 7150 50  0001 C CNN
+F 4 " EEE-1VA100SR " H 0   0   50  0001 C CNN "Part number"
 	1    5300 7150
 	1    0    0    -1  
 $EndComp
@@ -528,9 +552,10 @@ L Device:C C16
 U 1 1 5BD494B6
 P 5800 6700
 F 0 "C16" H 5915 6746 50  0000 L CNN
-F 1 "0.1u" H 5915 6655 50  0000 L CNN
+F 1 "0.1uF" H 5915 6655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5838 6550 50  0001 C CNN
-F 3 "~" H 5800 6700 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5800 6700 50  0001 C CNN
+F 4 " CL21F104ZBCNNNC " H 0   0   50  0001 C CNN "Part number"
 	1    5800 6700
 	1    0    0    -1  
 $EndComp
@@ -540,8 +565,9 @@ U 1 1 5BD49594
 P 5800 7150
 F 0 "C17" H 5915 7196 50  0000 L CNN
 F 1 "10uF" H 5915 7105 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 5800 7150 50  0001 C CNN
-F 3 "~" H 5800 7150 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 5800 7150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 5800 7150 50  0001 C CNN
+F 4 " EEE-1VA100SR " H 0   0   50  0001 C CNN "Part number"
 	1    5800 7150
 	1    0    0    -1  
 $EndComp
@@ -614,7 +640,8 @@ P 3200 7000
 F 0 "R6" V 2993 7000 50  0000 C CNN
 F 1 "10k" V 3084 7000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3130 7000 50  0001 C CNN
-F 3 "~" H 3200 7000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNCF.pdf" H 3200 7000 50  0001 C CNN
+F 4 " RNCF0805DTE10K0 " H 0   0   50  0001 C CNN "Part number"
 	1    3200 7000
 	0    1    1    0   
 $EndComp
@@ -663,7 +690,8 @@ P 1350 7000
 F 0 "R8" V 1143 7000 50  0000 C CNN
 F 1 "10k" V 1234 7000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1280 7000 50  0001 C CNN
-F 3 "~" H 1350 7000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RNCF.pdf" H 1350 7000 50  0001 C CNN
+F 4 " RNCF0805DTE10K0 " H 0   0   50  0001 C CNN "Part number"
 	1    1350 7000
 	0    1    1    0   
 $EndComp
@@ -675,36 +703,38 @@ Wire Wire Line
 	2300 3050 2450 3050
 Wire Wire Line
 	2000 2950 2450 2950
-Text GLabel 14900 3600 3    50   Input ~ 0
+Text GLabel 13300 3800 3    50   Input ~ 0
 5V
 $Comp
 L Device:LED D1
 U 1 1 5BEED2F8
-P 14750 3900
-F 0 "D1" V 14788 3782 50  0000 R CNN
-F 1 "LED blue" V 14697 3782 50  0000 R CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 14750 3900 50  0001 C CNN
-F 3 "~" H 14750 3900 50  0001 C CNN
-	1    14750 3900
+P 13150 4100
+F 0 "D1" V 13188 3982 50  0000 R CNN
+F 1 "LED blue" V 13097 3982 50  0000 R CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 13150 4100 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf" H 13150 4100 50  0001 C CNN
+F 4 " LTST-C170TBKT " H -1600 200 50  0001 C CNN "Part number"
+	1    13150 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 5BEED46B
-P 14750 4250
-F 0 "R7" H 14820 4296 50  0000 L CNN
-F 1 "560R" H 14820 4205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 14680 4250 50  0001 C CNN
-F 3 "~" H 14750 4250 50  0001 C CNN
-	1    14750 4250
+P 13150 4450
+F 0 "R7" H 13220 4496 50  0000 L CNN
+F 1 "560R" H 13220 4405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 13080 4450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 13150 4450 50  0001 C CNN
+F 4 " RMCF0805JT560R " H -1600 200 50  0001 C CNN "Part number"
+	1    13150 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14750 4050 14750 4100
+	13150 4250 13150 4300
 Wire Wire Line
-	14750 4400 14750 4550
+	13150 4600 13150 4750
 Wire Wire Line
-	14750 3600 14750 3750
+	13150 3800 13150 3950
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 5BF8665D
@@ -713,6 +743,7 @@ F 0 "J2" H 1006 2728 50  0000 C CNN
 F 1 "HID_JMP" H 1006 2637 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 900 2450 50  0001 C CNN
 F 3 "~" H 900 2450 50  0001 C CNN
+F 4 " SJ1-3523N " H 0   0   50  0001 C CNN "Part number"
 	1    900  2450
 	1    0    0    -1  
 $EndComp
@@ -749,97 +780,102 @@ Wire Wire Line
 $Comp
 L symbols:LM2662M U6
 U 1 1 5BFB8D30
-P 12600 1700
-F 0 "U6" H 13700 2087 60  0000 C CNN
-F 1 "LM2662M" H 13700 1981 60  0000 C CNN
-F 2 "LM2662:LM2662M" H 13700 1940 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2662.pdf" H 12600 1700 60  0001 C CNN
-	1    12600 1700
+P 11900 1950
+F 0 "U6" H 13000 2337 60  0000 C CNN
+F 1 "LM2662M" H 13000 2231 60  0000 C CNN
+F 2 "LM2662:LM2662M" H 13000 2190 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2662.pdf" H 11900 1950 60  0001 C CNN
+F 4 " LM2662M/NOPB " H -700 250 50  0001 C CNN "Part number"
+	1    11900 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 15100 1700 3    50   Input ~ 0
+Text GLabel 14400 1950 3    50   Input ~ 0
 5V
 Wire Wire Line
-	14800 1900 15100 1900
+	14100 2150 14400 2150
 Wire Wire Line
-	15100 1900 15100 1950
+	14400 2150 14400 2200
 $Comp
 L Device:CP1 C31
 U 1 1 5BFF9EC4
-P 14850 2250
-F 0 "C31" H 14735 2204 50  0000 R CNN
-F 1 "47uF" H 14735 2295 50  0000 R CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 14850 2250 50  0001 C CNN
-F 3 "~" H 14850 2250 50  0001 C CNN
-F 4 "Low ESR" H 14850 2250 50  0001 C CNN "Note"
-	1    14850 2250
+P 14150 2500
+F 0 "C31" H 14035 2454 50  0000 R CNN
+F 1 "47uF" H 14035 2545 50  0000 R CNN
+F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 14150 2500 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 14150 2500 50  0001 C CNN
+F 4 "Low ESR" H 14150 2500 50  0001 C CNN "Note"
+F 5 " EEE-1CA470WR " H 14150 2500 50  0001 C CNN "Part number"
+	1    14150 2500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	14800 2000 14850 2000
+	14100 2250 14150 2250
 Wire Wire Line
-	14850 2000 14850 2100
+	14150 2250 14150 2350
 Wire Wire Line
-	14850 2500 14850 2400
-Text GLabel 15250 2250 1    50   Input ~ 0
+	14150 2750 14150 2650
+Text GLabel 14550 2500 1    50   Input ~ 0
 -5V
 Wire Wire Line
-	14850 2000 15000 2000
+	14150 2250 14300 2250
 Wire Wire Line
-	15000 2000 15000 2250
+	14300 2250 14300 2500
 Wire Wire Line
-	15000 2250 15250 2250
-Connection ~ 14850 2000
+	14300 2500 14550 2500
+Connection ~ 14150 2250
 Wire Wire Line
-	12350 1950 12350 1900
+	11650 2200 11650 2150
 Wire Wire Line
-	12350 1900 12600 1900
+	11650 2150 11900 2150
 $Comp
 L Device:CP1 C30
 U 1 1 5C055C6C
-P 12050 1900
-F 0 "C30" H 12165 1946 50  0000 L CNN
-F 1 "47uF" H 12165 1855 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 12050 1900 50  0001 C CNN
-F 3 "~" H 12050 1900 50  0001 C CNN
-F 4 "Low ESR" H 12050 1900 50  0001 C CNN "Note"
-	1    12050 1900
+P 11350 2150
+F 0 "C30" H 11465 2196 50  0000 L CNN
+F 1 "47uF" H 11465 2105 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_5x5.3" H 11350 2150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 11350 2150 50  0001 C CNN
+F 4 "Low ESR" H 11350 2150 50  0001 C CNN "Note"
+F 5 " EEE-1CA470WR " H 11350 2150 50  0001 C CNN "Part number"
+	1    11350 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12600 1800 12200 1800
+	11900 2050 11500 2050
 Wire Wire Line
-	12200 1800 12200 1750
+	11500 2050 11500 2000
 Wire Wire Line
-	12200 1750 12050 1750
+	11500 2000 11350 2000
 Wire Wire Line
-	12050 2050 12050 2200
+	11350 2300 11350 2450
 Wire Wire Line
-	12050 2200 12550 2200
+	11350 2450 11850 2450
 Wire Wire Line
-	12550 2200 12550 2000
+	11850 2450 11850 2250
 Wire Wire Line
-	12550 2000 12600 2000
+	11850 2250 11900 2250
 $Comp
 L Device:R R11
 U 1 1 5C0762EA
-P 8750 6500
-F 0 "R11" V 8543 6500 50  0000 C CNN
-F 1 "887R" V 8634 6500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8680 6500 50  0001 C CNN
-F 3 "~" H 8750 6500 50  0001 C CNN
-	1    8750 6500
+P 7600 6450
+F 0 "R11" V 7393 6450 50  0000 C CNN
+F 1 "887R" V 7484 6450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 6450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7600 6450 50  0001 C CNN
+F 4 " RC0805FR-07887RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    7600 6450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 5C0763CC
-P 8750 5600
-F 0 "R10" V 8543 5600 50  0000 C CNN
-F 1 "887R" V 8634 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8680 5600 50  0001 C CNN
-F 3 "~" H 8750 5600 50  0001 C CNN
-	1    8750 5600
+P 7600 5550
+F 0 "R10" V 7393 5550 50  0000 C CNN
+F 1 "887R" V 7484 5550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 5550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7600 5550 50  0001 C CNN
+F 4 " RC0805FR-07887RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    7600 5550
 	0    1    1    0   
 $EndComp
 Text GLabel 2950 6100 2    50   Input ~ 0
@@ -850,430 +886,452 @@ Text GLabel 2950 6500 2    50   Input ~ 0
 IOUTR+
 Text GLabel 2950 6600 2    50   Input ~ 0
 IOUTR-
-Text GLabel 8400 6500 0    50   Input ~ 0
+Text GLabel 7250 6450 0    50   Input ~ 0
 IOUTL+
-Text GLabel 8400 5600 0    50   Input ~ 0
+Text GLabel 7250 5550 0    50   Input ~ 0
 IOUTL-
-Text GLabel 8400 8900 0    50   Input ~ 0
+Text GLabel 7250 8850 0    50   Input ~ 0
 IOUTR+
-Text GLabel 8400 8000 0    50   Input ~ 0
+Text GLabel 7250 7950 0    50   Input ~ 0
 IOUTR-
 $Comp
 L opa2134pa:OPA2134PA U4
 U 1 1 5C0C0C27
-P 9600 5850
-F 0 "U4" H 11300 6237 60  0000 C CNN
-F 1 "OPA2134PA" H 11300 6131 60  0000 C CNN
-F 2 "Housings_DIP:SMDIP-8_W7.62mm" H 11300 6090 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa2134.pdf" H 9600 5850 60  0001 C CNN
-	1    9600 5850
+P 8450 5800
+F 0 "U4" H 10150 6187 60  0000 C CNN
+F 1 "OPA2134PA" H 10150 6081 60  0000 C CNN
+F 2 "Housings_DIP:SMDIP-8_W7.62mm" H 10150 6040 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa2134.pdf" H 8450 5800 60  0001 C CNN
+F 4 " OPA2134PA " H -1150 -50 50  0001 C CNN "Part number"
+	1    8450 5800
 	1    0    0    -1  
 $EndComp
-Text GLabel 10000 6600 1    50   Input ~ 0
+Text GLabel 8850 6550 1    50   Input ~ 0
 -5V
-Text GLabel 13550 5950 3    50   Input ~ 0
+Text GLabel 12400 5900 3    50   Input ~ 0
 5V
 $Comp
 L Device:C C22
 U 1 1 5C0FA919
-P 9100 5750
-F 0 "C22" H 9215 5796 50  0000 L CNN
-F 1 "4.7nF" H 9215 5705 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9138 5600 50  0001 C CNN
-F 3 "~" H 9100 5750 50  0001 C CNN
-	1    9100 5750
+P 7950 5700
+F 0 "C22" H 8065 5746 50  0000 L CNN
+F 1 "4.7nF" H 8065 5655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7988 5550 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C472KARECAUTO.pdf" H 7950 5700 50  0001 C CNN
+F 4 " C0805C472KARECAUTO " H -1150 -50 50  0001 C CNN "Part number"
+	1    7950 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 5600 8600 5600
+	7250 5550 7450 5550
 Wire Wire Line
-	9100 5900 9100 6000
+	7950 5850 7950 5950
 Wire Wire Line
-	9100 6300 9100 6500
+	7950 6250 7950 6450
 Wire Wire Line
-	9100 6500 8900 6500
+	7950 6450 7750 6450
 Wire Wire Line
-	8600 6500 8400 6500
+	7450 6450 7250 6450
 $Comp
 L Device:R R18
 U 1 1 5C152C1D
-P 9400 5600
-F 0 "R18" V 9193 5600 50  0000 C CNN
-F 1 "1.02k" V 9284 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9330 5600 50  0001 C CNN
-F 3 "~" H 9400 5600 50  0001 C CNN
-	1    9400 5600
+P 8250 5550
+F 0 "R18" V 8043 5550 50  0000 C CNN
+F 1 "1.02k" V 8134 5550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8180 5550 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8250 5550 50  0001 C CNN
+F 4 " ERA-6AEB1021V " H -1150 -50 50  0001 C CNN "Part number"
+	1    8250 5550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 5600 9100 5600
-Connection ~ 9100 5600
+	7750 5550 7950 5550
+Connection ~ 7950 5550
 Wire Wire Line
-	9100 5600 9250 5600
+	7950 5550 8100 5550
 Wire Wire Line
-	9550 5600 9550 5950
+	8400 5550 8400 5900
 Wire Wire Line
-	9550 5950 9600 5950
+	8400 5900 8450 5900
 Wire Wire Line
-	9600 6050 9500 6050
+	8450 6000 8350 6000
 Wire Wire Line
-	9200 6500 9100 6500
-Connection ~ 9100 6500
+	8050 6450 7950 6450
+Connection ~ 7950 6450
 Wire Wire Line
-	9100 6500 9100 6650
+	7950 6450 7950 6600
 $Comp
 L Device:C C26
 U 1 1 5C1CEFBC
-P 9500 6800
-F 0 "C26" H 9615 6846 50  0000 L CNN
-F 1 "1nF" H 9615 6755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9538 6650 50  0001 C CNN
-F 3 "~" H 9500 6800 50  0001 C CNN
-	1    9500 6800
+P 8350 6750
+F 0 "C26" H 8465 6796 50  0000 L CNN
+F 1 "1nF" H 8465 6705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8388 6600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21C010CBANNNC.jsp" H 8350 6750 50  0001 C CNN
+F 4 " CL21C010CBANNNC " H -1150 -50 50  0001 C CNN "Part number"
+	1    8350 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 6950 9100 7050
+	7950 6900 7950 7000
 Wire Wire Line
-	9100 7050 9500 7050
+	7950 7000 8350 7000
 Wire Wire Line
-	9500 7050 9500 6950
+	8350 7000 8350 6900
 $Comp
 L Device:C C28
 U 1 1 5C20046D
-P 11250 5250
-F 0 "C28" V 10998 5250 50  0000 C CNN
-F 1 "1nF" V 11089 5250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 11288 5100 50  0001 C CNN
-F 3 "~" H 11250 5250 50  0001 C CNN
-	1    11250 5250
+P 10100 5200
+F 0 "C28" V 9848 5200 50  0000 C CNN
+F 1 "1nF" V 9939 5200 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10138 5050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21C010CBANNNC.jsp" H 10100 5200 50  0001 C CNN
+F 4 " CL21C010CBANNNC " H -1150 -50 50  0001 C CNN "Part number"
+	1    10100 5200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9550 5600 9900 5600
+	8400 5550 8750 5550
 Wire Wire Line
-	9900 5600 9900 5250
+	8750 5550 8750 5200
 Wire Wire Line
-	9900 5250 11100 5250
-Connection ~ 9550 5600
-Text GLabel 13550 6200 2    50   Input ~ 0
+	8750 5200 9950 5200
+Connection ~ 8400 5550
+Text GLabel 12400 6150 2    50   Input ~ 0
 OUTL
 Wire Wire Line
-	11400 5250 13150 5250
+	10250 5200 12000 5200
 Wire Wire Line
-	13150 5250 13150 6050
+	12000 5200 12000 6000
 Wire Wire Line
-	13150 6050 13000 6050
+	12000 6000 11850 6000
 $Comp
 L Device:R R22
 U 1 1 5C241DD3
-P 13400 6200
-F 0 "R22" V 13193 6200 50  0000 C CNN
-F 1 "22R" V 13284 6200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 13330 6200 50  0001 C CNN
-F 3 "~" H 13400 6200 50  0001 C CNN
-	1    13400 6200
+P 12250 6150
+F 0 "R22" V 12043 6150 50  0000 C CNN
+F 1 "22R" V 12134 6150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12180 6150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 12250 6150 50  0001 C CNN
+F 4 " RC0805FR-0722RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    12250 6150
 	0    1    1    0   
 $EndComp
-Connection ~ 13150 6050
+Connection ~ 12000 6000
 $Comp
 L Device:R R20
 U 1 1 5C27487A
-P 11250 4850
-F 0 "R20" V 11043 4850 50  0000 C CNN
-F 1 "887R" V 11134 4850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 11180 4850 50  0001 C CNN
-F 3 "~" H 11250 4850 50  0001 C CNN
-	1    11250 4850
+P 10100 4800
+F 0 "R20" V 9893 4800 50  0000 C CNN
+F 1 "887R" V 9984 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 10030 4800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 10100 4800 50  0001 C CNN
+F 4 " RC0805FR-07887RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    10100 4800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9100 5600 9100 4850
+	7950 5550 7950 4800
 Wire Wire Line
-	9100 4850 11100 4850
+	7950 4800 9950 4800
 Wire Wire Line
-	11400 4850 13150 4850
+	10250 4800 12000 4800
 Wire Wire Line
-	13150 4850 13150 5250
-Connection ~ 13150 5250
+	12000 4800 12000 5200
+Connection ~ 12000 5200
 $Comp
 L Device:R R14
 U 1 1 5C296F43
-P 9100 6800
-F 0 "R14" H 9030 6754 50  0000 R CNN
-F 1 "887R" H 9030 6845 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9030 6800 50  0001 C CNN
-F 3 "~" H 9100 6800 50  0001 C CNN
-	1    9100 6800
+P 7950 6750
+F 0 "R14" H 7880 6704 50  0000 R CNN
+F 1 "887R" H 7880 6795 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7880 6750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7950 6750 50  0001 C CNN
+F 4 " RC0805FR-07887RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    7950 6750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9500 6050 9500 6500
+	8350 6000 8350 6450
 $Comp
 L Device:R R16
 U 1 1 5C2A8546
-P 9350 6500
-F 0 "R16" V 9143 6500 50  0000 C CNN
-F 1 "1.02k" V 9234 6500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9280 6500 50  0001 C CNN
-F 3 "~" H 9350 6500 50  0001 C CNN
-	1    9350 6500
+P 8200 6450
+F 0 "R16" V 7993 6450 50  0000 C CNN
+F 1 "1.02k" V 8084 6450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8130 6450 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8200 6450 50  0001 C CNN
+F 4 " ERA-6AEB1021V " H -1150 -50 50  0001 C CNN "Part number"
+	1    8200 6450
 	0    1    1    0   
 $EndComp
-Connection ~ 9500 6500
+Connection ~ 8350 6450
 Wire Wire Line
-	9500 6500 9500 6650
+	8350 6450 8350 6600
 $Comp
 L Device:C C23
 U 1 1 5C2A8784
-P 9100 6150
-F 0 "C23" H 9215 6196 50  0000 L CNN
-F 1 "4.7nF" H 9215 6105 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9138 6000 50  0001 C CNN
-F 3 "~" H 9100 6150 50  0001 C CNN
-	1    9100 6150
+P 7950 6100
+F 0 "C23" H 8065 6146 50  0000 L CNN
+F 1 "4.7nF" H 8065 6055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7988 5950 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C472KARECAUTO.pdf" H 7950 6100 50  0001 C CNN
+F 4 " C0805C472KARECAUTO " H -1150 -50 50  0001 C CNN "Part number"
+	1    7950 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5C2D04CF
-P 8750 8900
-F 0 "R13" V 8543 8900 50  0000 C CNN
-F 1 "887R" V 8634 8900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8680 8900 50  0001 C CNN
-F 3 "~" H 8750 8900 50  0001 C CNN
-	1    8750 8900
+P 7600 8850
+F 0 "R13" V 7393 8850 50  0000 C CNN
+F 1 "887R" V 7484 8850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 8850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7600 8850 50  0001 C CNN
+F 4 " RC0805FR-07887RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    7600 8850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 5C2D04D6
-P 8750 8000
-F 0 "R12" V 8543 8000 50  0000 C CNN
-F 1 "887R" V 8634 8000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8680 8000 50  0001 C CNN
-F 3 "~" H 8750 8000 50  0001 C CNN
-	1    8750 8000
+P 7600 7950
+F 0 "R12" V 7393 7950 50  0000 C CNN
+F 1 "887R" V 7484 7950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 7950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7600 7950 50  0001 C CNN
+F 4 " RC0805FR-07887RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    7600 7950
 	0    1    1    0   
 $EndComp
 $Comp
 L opa2134pa:OPA2134PA U5
 U 1 1 5C2D04DD
-P 9600 8250
-F 0 "U5" H 11300 8637 60  0000 C CNN
-F 1 "OPA2134PA" H 11300 8531 60  0000 C CNN
-F 2 "Housings_DIP:SMDIP-8_W7.62mm" H 11300 8490 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa2134.pdf" H 9600 8250 60  0001 C CNN
-	1    9600 8250
+P 8450 8200
+F 0 "U5" H 10150 8587 60  0000 C CNN
+F 1 "OPA2134PA" H 10150 8481 60  0000 C CNN
+F 2 "Housings_DIP:SMDIP-8_W7.62mm" H 10150 8440 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa2134.pdf" H 8450 8200 60  0001 C CNN
+F 4 " OPA2134PA " H -1150 -50 50  0001 C CNN "Part number"
+	1    8450 8200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10000 9000 1    50   Input ~ 0
+Text GLabel 8850 8950 1    50   Input ~ 0
 -5V
-Text GLabel 13550 8350 3    50   Input ~ 0
+Text GLabel 12400 8300 3    50   Input ~ 0
 5V
 $Comp
 L Device:C C24
 U 1 1 5C2D04E7
-P 9100 8150
-F 0 "C24" H 9215 8196 50  0000 L CNN
-F 1 "4.7nF" H 9215 8105 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9138 8000 50  0001 C CNN
-F 3 "~" H 9100 8150 50  0001 C CNN
-	1    9100 8150
+P 7950 8100
+F 0 "C24" H 8065 8146 50  0000 L CNN
+F 1 "4.7nF" H 8065 8055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7988 7950 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C472KARECAUTO.pdf" H 7950 8100 50  0001 C CNN
+F 4 " C0805C472KARECAUTO " H -1150 -50 50  0001 C CNN "Part number"
+	1    7950 8100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 8000 8600 8000
+	7250 7950 7450 7950
 Wire Wire Line
-	9100 8300 9100 8400
+	7950 8250 7950 8350
 Wire Wire Line
-	9100 8700 9100 8900
+	7950 8650 7950 8850
 Wire Wire Line
-	9100 8900 8900 8900
+	7950 8850 7750 8850
 Wire Wire Line
-	8600 8900 8400 8900
+	7450 8850 7250 8850
 $Comp
 L Device:R R19
 U 1 1 5C2D04F3
-P 9400 8000
-F 0 "R19" V 9193 8000 50  0000 C CNN
-F 1 "1.02k" V 9284 8000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9330 8000 50  0001 C CNN
-F 3 "~" H 9400 8000 50  0001 C CNN
-	1    9400 8000
+P 8250 7950
+F 0 "R19" V 8043 7950 50  0000 C CNN
+F 1 "1.02k" V 8134 7950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8180 7950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8250 7950 50  0001 C CNN
+F 4 " ERA-6AEB1021V " H -1150 -50 50  0001 C CNN "Part number"
+	1    8250 7950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 8000 9100 8000
-Connection ~ 9100 8000
+	7750 7950 7950 7950
+Connection ~ 7950 7950
 Wire Wire Line
-	9100 8000 9250 8000
+	7950 7950 8100 7950
 Wire Wire Line
-	9550 8000 9550 8350
+	8400 7950 8400 8300
 Wire Wire Line
-	9550 8350 9600 8350
+	8400 8300 8450 8300
 Wire Wire Line
-	9600 8450 9500 8450
+	8450 8400 8350 8400
 Wire Wire Line
-	9200 8900 9100 8900
-Connection ~ 9100 8900
+	8050 8850 7950 8850
+Connection ~ 7950 8850
 Wire Wire Line
-	9100 8900 9100 9050
+	7950 8850 7950 9000
 $Comp
 L Device:C C27
 U 1 1 5C2D0503
-P 9500 9200
-F 0 "C27" H 9615 9246 50  0000 L CNN
-F 1 "1nF" H 9615 9155 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9538 9050 50  0001 C CNN
-F 3 "~" H 9500 9200 50  0001 C CNN
-	1    9500 9200
+P 8350 9150
+F 0 "C27" H 8465 9196 50  0000 L CNN
+F 1 "1nF" H 8465 9105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8388 9000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21C010CBANNNC.jsp" H 8350 9150 50  0001 C CNN
+F 4 " CL21C010CBANNNC " H -1150 -50 50  0001 C CNN "Part number"
+	1    8350 9150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 9350 9100 9450
+	7950 9300 7950 9400
 Wire Wire Line
-	9100 9450 9500 9450
+	7950 9400 8350 9400
 Wire Wire Line
-	9500 9450 9500 9350
+	8350 9400 8350 9300
 $Comp
 L Device:C C29
 U 1 1 5C2D050F
-P 11250 7650
-F 0 "C29" V 10998 7650 50  0000 C CNN
-F 1 "1nF" V 11089 7650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 11288 7500 50  0001 C CNN
-F 3 "~" H 11250 7650 50  0001 C CNN
-	1    11250 7650
+P 10100 7600
+F 0 "C29" V 9848 7600 50  0000 C CNN
+F 1 "1nF" V 9939 7600 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10138 7450 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21C010CBANNNC.jsp" H 10100 7600 50  0001 C CNN
+F 4 " CL21C010CBANNNC " H -1150 -50 50  0001 C CNN "Part number"
+	1    10100 7600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9550 8000 9900 8000
+	8400 7950 8750 7950
 Wire Wire Line
-	9900 8000 9900 7650
+	8750 7950 8750 7600
 Wire Wire Line
-	9900 7650 11100 7650
-Connection ~ 9550 8000
-Text GLabel 13550 8550 2    50   Input ~ 0
+	8750 7600 9950 7600
+Connection ~ 8400 7950
+Text GLabel 12400 8500 2    50   Input ~ 0
 OUTR
 Wire Wire Line
-	11400 7650 13150 7650
+	10250 7600 12000 7600
 Wire Wire Line
-	13150 7650 13150 8450
+	12000 7600 12000 8400
 Wire Wire Line
-	13150 8450 13000 8450
+	12000 8400 11850 8400
 $Comp
 L Device:R R23
 U 1 1 5C2D051E
-P 13350 8550
-F 0 "R23" V 13143 8550 50  0000 C CNN
-F 1 "22R" V 13234 8550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 13280 8550 50  0001 C CNN
-F 3 "~" H 13350 8550 50  0001 C CNN
-	1    13350 8550
+P 12200 8500
+F 0 "R23" V 11993 8500 50  0000 C CNN
+F 1 "22R" V 12084 8500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12130 8500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 12200 8500 50  0001 C CNN
+F 4 " RC0805FR-0722RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    12200 8500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	13150 8450 13200 8450
-Connection ~ 13150 8450
+	12000 8400 12050 8400
+Connection ~ 12000 8400
 $Comp
 L Device:R R21
 U 1 1 5C2D0528
-P 11250 7250
-F 0 "R21" V 11043 7250 50  0000 C CNN
-F 1 "887R" V 11134 7250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 11180 7250 50  0001 C CNN
-F 3 "~" H 11250 7250 50  0001 C CNN
-	1    11250 7250
+P 10100 7200
+F 0 "R21" V 9893 7200 50  0000 C CNN
+F 1 "887R" V 9984 7200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 10030 7200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 10100 7200 50  0001 C CNN
+F 4 " RC0805FR-07887RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    10100 7200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9100 8000 9100 7250
+	7950 7950 7950 7200
 Wire Wire Line
-	9100 7250 11100 7250
+	7950 7200 9950 7200
 Wire Wire Line
-	11400 7250 13150 7250
+	10250 7200 12000 7200
 Wire Wire Line
-	13150 7250 13150 7650
-Connection ~ 13150 7650
+	12000 7200 12000 7600
+Connection ~ 12000 7600
 $Comp
 L Device:R R15
 U 1 1 5C2D0534
-P 9100 9200
-F 0 "R15" H 9030 9154 50  0000 R CNN
-F 1 "887R" H 9030 9245 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9030 9200 50  0001 C CNN
-F 3 "~" H 9100 9200 50  0001 C CNN
-	1    9100 9200
+P 7950 9150
+F 0 "R15" H 7880 9104 50  0000 R CNN
+F 1 "887R" H 7880 9195 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7880 9150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7950 9150 50  0001 C CNN
+F 4 " RC0805FR-07887RL " H -1150 -50 50  0001 C CNN "Part number"
+	1    7950 9150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9500 8450 9500 8900
+	8350 8400 8350 8850
 $Comp
 L Device:R R17
 U 1 1 5C2D053C
-P 9350 8900
-F 0 "R17" V 9143 8900 50  0000 C CNN
-F 1 "1.02k" V 9234 8900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9280 8900 50  0001 C CNN
-F 3 "~" H 9350 8900 50  0001 C CNN
-	1    9350 8900
+P 8200 8850
+F 0 "R17" V 7993 8850 50  0000 C CNN
+F 1 "1.02k" V 8084 8850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8130 8850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8200 8850 50  0001 C CNN
+F 4 " ERA-6AEB1021V " H -1150 -50 50  0001 C CNN "Part number"
+	1    8200 8850
 	0    1    1    0   
 $EndComp
-Connection ~ 9500 8900
+Connection ~ 8350 8850
 Wire Wire Line
-	9500 8900 9500 9050
+	8350 8850 8350 9000
 $Comp
 L Device:C C25
 U 1 1 5C2D0545
-P 9100 8550
-F 0 "C25" H 9215 8596 50  0000 L CNN
-F 1 "4.7nF" H 9215 8505 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9138 8400 50  0001 C CNN
-F 3 "~" H 9100 8550 50  0001 C CNN
-	1    9100 8550
+P 7950 8500
+F 0 "C25" H 8065 8546 50  0000 L CNN
+F 1 "4.7nF" H 8065 8455 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7988 8350 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C472KARECAUTO.pdf" H 7950 8500 50  0001 C CNN
+F 4 " C0805C472KARECAUTO " H -1150 -50 50  0001 C CNN "Part number"
+	1    7950 8500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10850 1850 10950 1850
-Connection ~ 10950 1850
-Text GLabel 14450 7050 0    50   Input ~ 0
+	10150 2100 10250 2100
+Connection ~ 10250 2100
+Text GLabel 12850 7250 0    50   Input ~ 0
 OUTR
-Text GLabel 14450 6900 0    50   Input ~ 0
+Text GLabel 12850 7100 0    50   Input ~ 0
 OUTL
 Wire Wire Line
-	14450 6900 14650 6900
+	12850 7100 13050 7100
 Wire Wire Line
-	14650 6900 14650 6950
+	13050 7100 13050 7150
 Wire Wire Line
-	14650 6950 14700 6950
+	13050 7150 13100 7150
 Wire Wire Line
-	14450 7050 14700 7050
+	12850 7250 13100 7250
 Text Notes 1100 1100 0    50   ~ 0
 USB TO I2S\n5V supply\n
 Text Notes 1100 5050 0    50   ~ 0
 I2S to analoge signal
-Text Notes 8250 4850 0    50   ~ 0
+Text Notes 7100 4800 0    50   ~ 0
 Amplifier stage
-Text Notes 8850 1100 0    50   ~ 0
+Text Notes 8150 1350 0    50   ~ 0
 3.3V generation for DAC
-Text Notes 12150 1050 0    50   ~ 0
+Text Notes 11450 1300 0    50   ~ 0
 -5V generation for the amplifier stage
-Text Notes 14550 3250 0    50   ~ 0
+Text Notes 12950 3450 0    50   ~ 0
 Status LEDs
 Wire Wire Line
-	10950 1850 11050 1850
+	10250 2100 10350 2100
 Wire Wire Line
-	11050 2050 11050 1850
-NoConn ~ 14800 1800
-NoConn ~ 12600 1700
-NoConn ~ 10850 2150
-NoConn ~ 9650 2150
+	10350 2300 10350 2100
+NoConn ~ 14100 2050
+NoConn ~ 11900 1950
+NoConn ~ 10150 2400
+NoConn ~ 8950 2400
 NoConn ~ 2950 6800
-NoConn ~ 9600 8250
-NoConn ~ 9600 5850
-NoConn ~ 13000 5850
-NoConn ~ 13000 8250
+NoConn ~ 8450 8200
+NoConn ~ 8450 5800
+NoConn ~ 11850 5800
+NoConn ~ 11850 8200
 NoConn ~ 7800 3250
 NoConn ~ 7400 3050
 NoConn ~ 5250 2150
@@ -1287,12 +1345,13 @@ P 7700 2850
 F 0 "J1" H 7470 2841 50  0000 R CNN
 F 1 "USB_OTG" H 7470 2750 50  0000 R CNN
 F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521_CircularHoles" H 7850 2800 50  0001 C CNN
-F 3 " ~" H 7850 2800 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/629105150521.pdf" H 7850 2800 50  0001 C CNN
+F 4 " 629105150521 " H 0   0   50  0001 C CNN "Part number"
 	1    7700 2850
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 13000 8550
-NoConn ~ 13000 6150
+NoConn ~ 11850 8500
+NoConn ~ 11850 6100
 Wire Wire Line
 	1000 6300 1000 6400
 Wire Wire Line
@@ -1336,7 +1395,8 @@ P 1250 5800
 F 0 "R24" V 1043 5800 50  0000 C CNN
 F 1 "10R" V 1134 5800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1180 5800 50  0001 C CNN
-F 3 "~" H 1250 5800 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1250 5800 50  0001 C CNN
+F 4 " RNCP0805FTD10R0 " H 0   0   50  0001 C CNN "Part number"
 	1    1250 5800
 	0    1    1    0   
 $EndComp
@@ -1351,7 +1411,8 @@ P 1250 6100
 F 0 "R27" V 1043 6100 50  0000 C CNN
 F 1 "47R" V 1134 6100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1180 6100 50  0001 C CNN
-F 3 "~" H 1250 6100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 1250 6100 50  0001 C CNN
+F 4 " ERJ-6ENF47R0V " H 0   0   50  0001 C CNN "Part number"
 	1    1250 6100
 	0    1    1    0   
 $EndComp
@@ -1364,7 +1425,8 @@ P 1250 5900
 F 0 "R25" V 1043 5900 50  0000 C CNN
 F 1 "10R" V 1134 5900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1180 5900 50  0001 C CNN
-F 3 "~" H 1250 5900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1250 5900 50  0001 C CNN
+F 4 " RNCP0805FTD10R0 " H 0   0   50  0001 C CNN "Part number"
 	1    1250 5900
 	0    1    1    0   
 $EndComp
@@ -1375,7 +1437,8 @@ P 1250 6000
 F 0 "R26" V 1043 6000 50  0000 C CNN
 F 1 "10R" V 1134 6000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1180 6000 50  0001 C CNN
-F 3 "~" H 1250 6000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1250 6000 50  0001 C CNN
+F 4 " RNCP0805FTD10R0 " H 0   0   50  0001 C CNN "Part number"
 	1    1250 6000
 	0    1    1    0   
 $EndComp
@@ -1397,13 +1460,13 @@ Text GLabel 4450 7450 3    50   Input ~ 0
 Wire Wire Line
 	3800 7450 4200 7450
 Connection ~ 4200 7450
-Text GLabel 11200 1850 3    50   Input ~ 0
+Text GLabel 10500 2100 3    50   Input ~ 0
 3.3V
 Wire Wire Line
 	4200 7450 4450 7450
-Connection ~ 11050 1850
+Connection ~ 10350 2100
 Wire Wire Line
-	11050 1850 11200 1850
+	10350 2100 10500 2100
 Wire Wire Line
 	5250 2650 6550 2650
 Connection ~ 6550 2650
@@ -1523,56 +1586,56 @@ $EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 5BF1B180
-P 9350 2300
-F 0 "#PWR019" H 9350 2050 50  0001 C CNN
-F 1 "GND" V 9355 2172 50  0001 R CNN
-F 2 "" H 9350 2300 50  0001 C CNN
-F 3 "" H 9350 2300 50  0001 C CNN
-	1    9350 2300
+P 8650 2550
+F 0 "#PWR019" H 8650 2300 50  0001 C CNN
+F 1 "GND" V 8655 2422 50  0001 R CNN
+F 2 "" H 8650 2550 50  0001 C CNN
+F 3 "" H 8650 2550 50  0001 C CNN
+	1    8650 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5BF1B215
-P 10250 2650
-F 0 "#PWR020" H 10250 2400 50  0001 C CNN
-F 1 "GND" V 10255 2522 50  0001 R CNN
-F 2 "" H 10250 2650 50  0001 C CNN
-F 3 "" H 10250 2650 50  0001 C CNN
-	1    10250 2650
+P 9550 2900
+F 0 "#PWR020" H 9550 2650 50  0001 C CNN
+F 1 "GND" V 9555 2772 50  0001 R CNN
+F 2 "" H 9550 2900 50  0001 C CNN
+F 3 "" H 9550 2900 50  0001 C CNN
+	1    9550 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 5BF1D797
-P 14850 2500
-F 0 "#PWR023" H 14850 2250 50  0001 C CNN
-F 1 "GND" V 14855 2372 50  0001 R CNN
-F 2 "" H 14850 2500 50  0001 C CNN
-F 3 "" H 14850 2500 50  0001 C CNN
-	1    14850 2500
+P 14150 2750
+F 0 "#PWR023" H 14150 2500 50  0001 C CNN
+F 1 "GND" V 14155 2622 50  0001 R CNN
+F 2 "" H 14150 2750 50  0001 C CNN
+F 3 "" H 14150 2750 50  0001 C CNN
+	1    14150 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR022
 U 1 1 5BF1D82C
-P 14750 4550
-F 0 "#PWR022" H 14750 4300 50  0001 C CNN
-F 1 "GND" V 14755 4422 50  0001 R CNN
-F 2 "" H 14750 4550 50  0001 C CNN
-F 3 "" H 14750 4550 50  0001 C CNN
-	1    14750 4550
+P 13150 4750
+F 0 "#PWR022" H 13150 4500 50  0001 C CNN
+F 1 "GND" V 13155 4622 50  0001 R CNN
+F 2 "" H 13150 4750 50  0001 C CNN
+F 3 "" H 13150 4750 50  0001 C CNN
+	1    13150 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 5BF1D8C1
-P 14550 6650
-F 0 "#PWR021" H 14550 6400 50  0001 C CNN
-F 1 "GND" V 14555 6522 50  0001 R CNN
-F 2 "" H 14550 6650 50  0001 C CNN
-F 3 "" H 14550 6650 50  0001 C CNN
-	1    14550 6650
+P 12950 6850
+F 0 "#PWR021" H 12950 6600 50  0001 C CNN
+F 1 "GND" V 12955 6722 50  0001 R CNN
+F 2 "" H 12950 6850 50  0001 C CNN
+F 3 "" H 12950 6850 50  0001 C CNN
+	1    12950 6850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1666,34 +1729,34 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5BF2292C
-P 10950 1100
-F 0 "#PWR0101" H 10950 850 50  0001 C CNN
-F 1 "GND" V 10955 972 50  0000 R CNN
-F 2 "" H 10950 1100 50  0001 C CNN
-F 3 "" H 10950 1100 50  0001 C CNN
-	1    10950 1100
+P 10250 1350
+F 0 "#PWR0101" H 10250 1100 50  0001 C CNN
+F 1 "GND" V 10255 1222 50  0000 R CNN
+F 2 "" H 10250 1350 50  0001 C CNN
+F 3 "" H 10250 1350 50  0001 C CNN
+	1    10250 1350
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5BF231AD
-P 12350 1950
-F 0 "#PWR0102" H 12350 1700 50  0001 C CNN
-F 1 "GND" H 12355 1777 50  0001 C CNN
-F 2 "" H 12350 1950 50  0001 C CNN
-F 3 "" H 12350 1950 50  0001 C CNN
-	1    12350 1950
+P 11650 2200
+F 0 "#PWR0102" H 11650 1950 50  0001 C CNN
+F 1 "GND" H 11655 2027 50  0001 C CNN
+F 2 "" H 11650 2200 50  0001 C CNN
+F 3 "" H 11650 2200 50  0001 C CNN
+	1    11650 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5BF23439
-P 15100 1950
-F 0 "#PWR0103" H 15100 1700 50  0001 C CNN
-F 1 "GND" H 15105 1777 50  0001 C CNN
-F 2 "" H 15100 1950 50  0001 C CNN
-F 3 "" H 15100 1950 50  0001 C CNN
-	1    15100 1950
+P 14400 2200
+F 0 "#PWR0103" H 14400 1950 50  0001 C CNN
+F 1 "GND" H 14405 2027 50  0001 C CNN
+F 2 "" H 14400 2200 50  0001 C CNN
+F 3 "" H 14400 2200 50  0001 C CNN
+	1    14400 2200
 	1    0    0    -1  
 $EndComp
 Connection ~ 3500 4950
@@ -1746,42 +1809,42 @@ CLK_N
 $Comp
 L Connector:AudioJack3_Ground J3
 U 1 1 5BA93843
-P 14900 6950
-F 0 "J3" H 14667 6971 50  0000 R CNN
-F 1 "AudioJack3_Ground" H 14667 6880 50  0000 R CNN
-F 2 "Connectors:Stereo_Jack_3.5mm_Switch_Ledino_KB3SPRS" H 14900 6950 50  0001 C CNN
-F 3 "~" H 14900 6950 50  0001 C CNN
-	1    14900 6950
+P 13300 7150
+F 0 "J3" H 13067 7171 50  0000 R CNN
+F 1 "AudioJack3_Ground" H 13067 7080 50  0000 R CNN
+F 2 "Connectors:Stereo_Jack_3.5mm_Switch_Ledino_KB3SPRS" H 13300 7150 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf" H 13300 7150 50  0001 C CNN
+	1    13300 7150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	14650 6650 14650 6850
+	13050 6850 13050 7050
 Wire Wire Line
-	14650 6850 14700 6850
+	13050 7050 13100 7050
 Wire Wire Line
 	6100 2150 6200 2150
 Wire Wire Line
 	6300 2150 6450 2150
 Wire Wire Line
-	14550 6650 14650 6650
+	12950 6850 13050 6850
 Wire Wire Line
 	2050 7400 2050 7200
 Wire Wire Line
 	3500 4800 3700 4800
 Wire Wire Line
-	13250 6050 13250 6200
+	12100 6000 12100 6150
 Wire Wire Line
-	13150 6050 13250 6050
+	12000 6000 12100 6000
 Wire Wire Line
-	13500 8550 13550 8550
+	12350 8500 12400 8500
 Wire Wire Line
-	13200 8550 13200 8450
+	12050 8500 12050 8400
 Wire Wire Line
-	9600 9000 10000 9000
+	8450 8950 8850 8950
 Wire Wire Line
-	9600 6600 10000 6600
+	8450 6550 8850 6550
 Wire Wire Line
-	14900 3600 14750 3600
+	13300 3800 13150 3800
 Wire Wire Line
 	6950 2650 7050 2650
 Wire Wire Line
@@ -1806,7 +1869,8 @@ P 7200 2650
 F 0 "F1" V 6975 2650 50  0000 C CNN
 F 1 "Polyfuse" V 7066 2650 50  0000 C CNN
 F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" H 7250 2450 50  0001 L CNN
-F 3 "~" H 7200 2650 50  0001 C CNN
+F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1t-series.pdf" H 7200 2650 50  0001 C CNN
+F 4 "0685T2500-01 " H 0   0   50  0001 C CNN "Part number"
 	1    7200 2650
 	0    1    1    0   
 $EndComp
@@ -1827,7 +1891,8 @@ P 6150 2850
 F 0 "R4" V 5943 2850 50  0000 C CNN
 F 1 "22R" V 6034 2850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6080 2850 50  0001 C CNN
-F 3 "~" H 6150 2850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 6150 2850 50  0001 C CNN
+F 4 " RC0805FR-0722RL " H 0   0   50  0001 C CNN "Part number"
 	1    6150 2850
 	0    1    1    0   
 $EndComp
@@ -1838,7 +1903,8 @@ P 5800 2750
 F 0 "R3" V 5593 2750 50  0000 C CNN
 F 1 "22R" V 5684 2750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5730 2750 50  0001 C CNN
-F 3 "~" H 5800 2750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 5800 2750 50  0001 C CNN
+F 4 " RC0805FR-0722RL " H 0   0   50  0001 C CNN "Part number"
 	1    5800 2750
 	0    1    1    0   
 $EndComp
@@ -1865,21 +1931,22 @@ F 0 "U1" H 3850 2237 60  0000 C CNN
 F 1 "PCM2707PJTG4" H 3850 2131 60  0000 C CNN
 F 2 "PCM2707:PCM2707PJTG4" H 3850 2090 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/pcm2706.pdf" H 3850 2131 60  0001 C CNN
+F 4 " PCM2707CPJT " H 0   0   50  0001 C CNN "Part number"
 	1    2450 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 2250 2450 2250
 Wire Wire Line
-	14800 1700 15100 1700
+	14100 1950 14400 1950
 Wire Wire Line
-	13000 5950 13550 5950
+	11850 5900 12400 5900
 Wire Wire Line
-	13000 8350 13550 8350
+	11850 8300 12400 8300
 Wire Wire Line
-	9600 8550 9600 9000
+	8450 8500 8450 8950
 Wire Wire Line
-	9600 6150 9600 6600
+	8450 6100 8450 6550
 Wire Wire Line
 	3600 5950 3600 7450
 Wire Wire Line
@@ -1888,4 +1955,6 @@ Wire Wire Line
 	2450 5600 4550 5600
 Wire Wire Line
 	2250 4950 2250 5600
+Text Notes 12000 2650 0    50   ~ 0
+Use low ESR polarized capacitors for C30&C31\n
 $EndSCHEMATC
