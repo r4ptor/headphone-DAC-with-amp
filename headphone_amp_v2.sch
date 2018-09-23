@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L PCM2707:PCM2707PJTG4 U1
-U 1 1 5BC43683
-P 2450 1850
-F 0 "U1" H 3850 2237 60  0000 C CNN
-F 1 "PCM2707PJTG4" H 3850 2131 60  0000 C CNN
-F 2 "PCM2707:PCM2707PJTG4" H 3850 2090 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/pcm2706.pdf" H 3850 2131 60  0001 C CNN
-	1    2450 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 2750 6950 2850
 Wire Wire Line
@@ -184,7 +173,6 @@ Wire Wire Line
 	1800 1850 1800 1950
 Wire Wire Line
 	1800 1850 2450 1850
-Connection ~ 2450 1850
 Wire Wire Line
 	1800 2150 1800 1950
 Connection ~ 1800 1950
@@ -463,8 +451,6 @@ F 3 "~" H 3500 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 4950 2250 5300
-Wire Wire Line
 	2250 4950 2600 4950
 Connection ~ 2600 4950
 Wire Wire Line
@@ -534,8 +520,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 6050 4750 6050
 Wire Wire Line
-	2450 5600 3600 5600
-Wire Wire Line
 	4550 5600 4550 6650
 Text GLabel 5450 6950 3    50   Input ~ 0
 5V
@@ -592,8 +576,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 5600 2350 5550
 Wire Wire Line
-	2350 5550 3750 5550
-Wire Wire Line
 	5700 5550 5700 6950
 Wire Wire Line
 	5700 6950 5800 6950
@@ -644,8 +626,6 @@ Wire Wire Line
 	3050 7000 2950 7000
 Text GLabel 2350 2250 0    50   Input ~ 0
 DATA_N
-Wire Wire Line
-	2350 2250 2400 2250
 Text GLabel 950  6000 0    50   Input ~ 0
 DATA_N
 Text GLabel 950  5900 0    50   Input ~ 0
@@ -661,13 +641,9 @@ CLK_P
 Wire Wire Line
 	5250 3150 5350 3150
 Wire Wire Line
-	5350 3150 5350 3300
-Wire Wire Line
 	5350 3650 5400 3650
 Wire Wire Line
 	5250 3250 5300 3250
-Wire Wire Line
-	5300 3250 5300 3450
 Wire Wire Line
 	5300 3800 5400 3800
 Wire Wire Line
@@ -678,8 +654,6 @@ Wire Wire Line
 	1400 6100 1550 6100
 Text GLabel 5400 3950 2    50   Input ~ 0
 DATA_P
-Wire Wire Line
-	5250 3350 5250 3600
 Wire Wire Line
 	5250 3950 5400 3950
 $Comp
@@ -785,8 +759,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2662.pdf" H 12600 1700 60  0001 C CNN
 $EndComp
 Text GLabel 15100 1700 3    50   Input ~ 0
 5V
-Wire Wire Line
-	14800 1700 14950 1700
 Wire Wire Line
 	14800 1900 15100 1900
 Wire Wire Line
@@ -901,8 +873,6 @@ Text GLabel 10000 6600 1    50   Input ~ 0
 -5V
 Text GLabel 13550 5950 3    50   Input ~ 0
 5V
-Wire Wire Line
-	13000 5950 13050 5950
 $Comp
 L Device:C C22
 U 1 1 5C0FA919
@@ -1101,8 +1071,6 @@ Text GLabel 10000 9000 1    50   Input ~ 0
 -5V
 Text GLabel 13550 8350 3    50   Input ~ 0
 5V
-Wire Wire Line
-	13000 8350 13100 8350
 $Comp
 L Device:C C24
 U 1 1 5C2D04E7
@@ -1417,8 +1385,6 @@ Wire Wire Line
 	3300 5450 3300 5950
 Wire Wire Line
 	3300 5950 3600 5950
-Wire Wire Line
-	3600 5950 3600 6800
 Wire Wire Line
 	3600 7450 3800 7450
 Connection ~ 3800 7450
@@ -1813,228 +1779,9 @@ Wire Wire Line
 Wire Wire Line
 	9600 9000 10000 9000
 Wire Wire Line
-	9600 8550 9600 8600
-Wire Wire Line
 	9600 6600 10000 6600
 Wire Wire Line
-	9600 6150 9600 6250
-Wire Wire Line
 	14900 3600 14750 3600
-$Comp
-L Connector:TestPoint_Probe TP2
-U 1 1 5BA8246C
-P 11200 1850
-F 0 "TP2" H 11353 1952 50  0000 L CNN
-F 1 "TestPoint_Probe" H 11353 1861 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 11400 1850 50  0001 C CNN
-F 3 "~" H 11400 1850 50  0001 C CNN
-	1    11200 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Probe TP3
-U 1 1 5BA8251C
-P 15250 2250
-F 0 "TP3" H 15403 2352 50  0000 L CNN
-F 1 "TestPoint_Probe" H 15403 2261 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 15450 2250 50  0001 C CNN
-F 3 "~" H 15450 2250 50  0001 C CNN
-	1    15250 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Probe TP1
-U 1 1 5BA83EAD
-P 6700 2300
-F 0 "TP1" H 6853 2402 50  0000 L CNN
-F 1 "+5V" H 6853 2311 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6900 2300 50  0001 C CNN
-F 3 "~" H 6900 2300 50  0001 C CNN
-	1    6700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Probe TP10
-U 1 1 5BA86536
-P 5300 3450
-F 0 "TP10" H 5453 3552 50  0000 L CNN
-F 1 "TestPoint_Probe" H 5453 3461 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5500 3450 50  0001 C CNN
-F 3 "~" H 5500 3450 50  0001 C CNN
-	1    5300 3450
-	1    0    0    -1  
-$EndComp
-Connection ~ 5300 3450
-Wire Wire Line
-	5300 3450 5300 3800
-$Comp
-L Connector:TestPoint_Probe TP11
-U 1 1 5BA86782
-P 5350 3300
-F 0 "TP11" H 5503 3402 50  0000 L CNN
-F 1 "TestPoint_Probe" H 5503 3311 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5550 3300 50  0001 C CNN
-F 3 "~" H 5550 3300 50  0001 C CNN
-	1    5350 3300
-	1    0    0    -1  
-$EndComp
-Connection ~ 5350 3300
-Wire Wire Line
-	5350 3300 5350 3650
-$Comp
-L Connector:TestPoint_Probe TP9
-U 1 1 5BA8682E
-P 5250 3600
-F 0 "TP9" H 5403 3702 50  0000 L CNN
-F 1 "TestPoint_Probe" H 5403 3611 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5450 3600 50  0001 C CNN
-F 3 "~" H 5450 3600 50  0001 C CNN
-	1    5250 3600
-	1    0    0    -1  
-$EndComp
-Connection ~ 5250 3600
-Wire Wire Line
-	5250 3600 5250 3950
-$Comp
-L Connector:TestPoint_Probe TP5
-U 1 1 5BA868DC
-P 2400 2250
-F 0 "TP5" H 2553 2352 50  0000 L CNN
-F 1 "TestPoint_Probe" H 2553 2261 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2600 2250 50  0001 C CNN
-F 3 "~" H 2600 2250 50  0001 C CNN
-	1    2400 2250
-	1    0    0    -1  
-$EndComp
-Connection ~ 2400 2250
-Wire Wire Line
-	2400 2250 2450 2250
-$Comp
-L Connector:TestPoint_Probe TP4
-U 1 1 5BA871C2
-P 2250 5300
-F 0 "TP4" H 2403 5402 50  0000 L CNN
-F 1 "+5V" H 2403 5311 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2450 5300 50  0001 C CNN
-F 3 "~" H 2450 5300 50  0001 C CNN
-	1    2250 5300
-	1    0    0    -1  
-$EndComp
-Connection ~ 2250 5300
-Wire Wire Line
-	2250 5300 2250 5600
-$Comp
-L Connector:TestPoint_Probe TP6
-U 1 1 5BA87538
-P 3600 5600
-F 0 "TP6" H 3753 5702 50  0000 L CNN
-F 1 "+5V" H 3753 5611 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3800 5600 50  0001 C CNN
-F 3 "~" H 3800 5600 50  0001 C CNN
-	1    3600 5600
-	1    0    0    -1  
-$EndComp
-Connection ~ 3600 5600
-Wire Wire Line
-	3600 5600 4550 5600
-$Comp
-L Connector:TestPoint_Probe TP8
-U 1 1 5BA87736
-P 3750 5550
-F 0 "TP8" H 3903 5652 50  0000 L CNN
-F 1 "+5V" H 3903 5561 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3950 5550 50  0001 C CNN
-F 3 "~" H 3950 5550 50  0001 C CNN
-	1    3750 5550
-	1    0    0    -1  
-$EndComp
-Connection ~ 3750 5550
-Wire Wire Line
-	3750 5550 5700 5550
-$Comp
-L Connector:TestPoint_Probe TP7
-U 1 1 5BA878DC
-P 3600 6800
-F 0 "TP7" H 3753 6902 50  0000 L CNN
-F 1 "TestPoint_Probe" H 3753 6811 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3800 6800 50  0001 C CNN
-F 3 "~" H 3800 6800 50  0001 C CNN
-	1    3600 6800
-	1    0    0    -1  
-$EndComp
-Connection ~ 3600 6800
-Wire Wire Line
-	3600 6800 3600 7450
-$Comp
-L Connector:TestPoint_Probe TP14
-U 1 1 5BA87D22
-P 9600 8600
-F 0 "TP14" H 9753 8702 50  0000 L CNN
-F 1 "TestPoint_Probe" H 9753 8611 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9800 8600 50  0001 C CNN
-F 3 "~" H 9800 8600 50  0001 C CNN
-	1    9600 8600
-	1    0    0    -1  
-$EndComp
-Connection ~ 9600 8600
-Wire Wire Line
-	9600 8600 9600 9000
-$Comp
-L Connector:TestPoint_Probe TP13
-U 1 1 5BA88052
-P 9600 6250
-F 0 "TP13" H 9753 6352 50  0000 L CNN
-F 1 "TestPoint_Probe" H 9753 6261 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9800 6250 50  0001 C CNN
-F 3 "~" H 9800 6250 50  0001 C CNN
-	1    9600 6250
-	1    0    0    -1  
-$EndComp
-Connection ~ 9600 6250
-Wire Wire Line
-	9600 6250 9600 6600
-$Comp
-L Connector:TestPoint_Probe TP15
-U 1 1 5BA88225
-P 13050 5950
-F 0 "TP15" H 13203 6052 50  0000 L CNN
-F 1 "+5V" H 13203 5961 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 13250 5950 50  0001 C CNN
-F 3 "~" H 13250 5950 50  0001 C CNN
-	1    13050 5950
-	1    0    0    -1  
-$EndComp
-Connection ~ 13050 5950
-Wire Wire Line
-	13050 5950 13550 5950
-$Comp
-L Connector:TestPoint_Probe TP16
-U 1 1 5BA884FD
-P 13100 8350
-F 0 "TP16" H 13253 8452 50  0000 L CNN
-F 1 "TestPoint_Probe" H 13253 8361 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 13300 8350 50  0001 C CNN
-F 3 "~" H 13300 8350 50  0001 C CNN
-	1    13100 8350
-	1    0    0    -1  
-$EndComp
-Connection ~ 13100 8350
-Wire Wire Line
-	13100 8350 13550 8350
-$Comp
-L Connector:TestPoint_Probe TP17
-U 1 1 5BA88F74
-P 14950 1700
-F 0 "TP17" H 15103 1802 50  0000 L CNN
-F 1 "TestPoint_Probe" H 15103 1711 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 15150 1700 50  0001 C CNN
-F 3 "~" H 15150 1700 50  0001 C CNN
-	1    14950 1700
-	1    0    0    -1  
-$EndComp
-Connection ~ 14950 1700
-Wire Wire Line
-	14950 1700 15100 1700
 Wire Wire Line
 	6950 2650 7050 2650
 Wire Wire Line
@@ -2065,54 +1812,6 @@ F 3 "~" H 7200 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7350 2650 7400 2650
-$Comp
-L Connector:TestPoint_Probe TP18
-U 1 1 5BB61DCD
-P 13850 3800
-F 0 "TP18" H 14003 3902 50  0000 L CNN
-F 1 "TestPoint_Probe" H 14003 3811 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14050 3800 50  0001 C CNN
-F 3 "~" H 14050 3800 50  0001 C CNN
-	1    13850 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 5BB61EBF
-P 13850 4000
-F 0 "#PWR025" H 13850 3750 50  0001 C CNN
-F 1 "GND" H 13855 3827 50  0000 C CNN
-F 2 "" H 13850 4000 50  0001 C CNN
-F 3 "" H 13850 4000 50  0001 C CNN
-	1    13850 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 3800 13850 4000
-$Comp
-L power:GND #PWR024
-U 1 1 5BB96490
-P 13650 4000
-F 0 "#PWR024" H 13650 3750 50  0001 C CNN
-F 1 "GND" H 13655 3827 50  0000 C CNN
-F 2 "" H 13650 4000 50  0001 C CNN
-F 3 "" H 13650 4000 50  0001 C CNN
-	1    13650 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Probe TP12
-U 1 1 5BB96549
-P 13650 3800
-F 0 "TP12" H 13803 3902 50  0000 L CNN
-F 1 "TestPoint_Probe" H 13803 3811 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 13850 3800 50  0001 C CNN
-F 3 "~" H 13850 3800 50  0001 C CNN
-	1    13650 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13650 3800 13650 4000
 Wire Wire Line
 	5250 2850 6000 2850
 Wire Wire Line
@@ -2151,4 +1850,42 @@ Text Label 5250 2850 0    50   ~ 0
 D-
 Text Label 5250 2750 0    50   ~ 0
 D+
+Wire Wire Line
+	5350 3150 5350 3650
+Wire Wire Line
+	5300 3250 5300 3800
+Wire Wire Line
+	5250 3350 5250 3950
+Connection ~ 2450 1850
+$Comp
+L PCM2707:PCM2707PJTG4 U1
+U 1 1 5BC43683
+P 2450 1850
+F 0 "U1" H 3850 2237 60  0000 C CNN
+F 1 "PCM2707PJTG4" H 3850 2131 60  0000 C CNN
+F 2 "PCM2707:PCM2707PJTG4" H 3850 2090 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/pcm2706.pdf" H 3850 2131 60  0001 C CNN
+	1    2450 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2250 2450 2250
+Wire Wire Line
+	14800 1700 15100 1700
+Wire Wire Line
+	13000 5950 13550 5950
+Wire Wire Line
+	13000 8350 13550 8350
+Wire Wire Line
+	9600 8550 9600 9000
+Wire Wire Line
+	9600 6150 9600 6600
+Wire Wire Line
+	3600 5950 3600 7450
+Wire Wire Line
+	2350 5550 5700 5550
+Wire Wire Line
+	2450 5600 4550 5600
+Wire Wire Line
+	2250 4950 2250 5600
 $EndSCHEMATC
