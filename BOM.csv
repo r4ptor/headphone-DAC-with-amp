@@ -1,0 +1,46 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Part number,Note
+1,Unpolarized capacitor,C,C12 C14 C16,0.1uF,C_0805_HandSoldering,3,http://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf,CL21F104ZBCNNNC,
+2,Polarised capacitor,CP1,C4 C11 C13 C15 C17,10uF,CP_Elec_5x5.8,5,https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf,EEE-1VA100SR,
+3,Unpolarized capacitor,C,C21,10uF,C_0805_HandSoldering,1,http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KPFNNNG.jsp,CL21A106KPFNNNG,
+4,Unpolarized capacitor,C,C26 C27 C28 C29,1nF,C_0805_HandSoldering,4,http://www.samsungsem.com/kr/support/product-search/mlcc/CL21C010CBANNNC.jsp,CL21C010CBANNNC,
+5,Unpolarized capacitor,C,C3 C5 C6 C7 C8 C19 C20,1uF,C_0805_HandSoldering,7,http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf,CC0805KKX7R6BB105,
+6,Unpolarized capacitor,C,C18,2.2uF,C_0805_HandSoldering,1,https://api.kemet.com/component-edge/download/datasheet/C0805C225K8RACTU.pdf,C0805C225K8RACTU,
+7,Unpolarized capacitor,C,C1 C2,22pF,C_0805_HandSoldering,2,https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0001944187/AVXC-S-A0001944187-1.pdf,08051A220KAT2A,
+8,Unpolarized capacitor,C,C22 C23 C24 C25,4.7nF,C_0805_HandSoldering,4,https://api.kemet.com/component-edge/download/datasheet/C0805C472KARECAUTO.pdf,C0805C472KARECAUTO,
+9,Polarised capacitor,CP1,C9 C10 C30 C31,47uF,CP_Elec_5x5.3,4,https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf,EEE-1CA470WR,Low ESR
+10,LED generic,LED,D1,LED blue,LED_0805_HandSoldering,1,http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf,LTST-C170TBKT,
+11,"resettable fuse, polymeric positive temperature coefficient (PPTC)",Polyfuse,F1,Polyfuse,Fuse_SMD1206_HandSoldering,1,https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1t-series.pdf,0685T2500-01,
+12,"Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve",AudioJack3_Ground,J3,AudioJack3_Ground,Stereo_Jack_3.5mm_Switch_Ledino_KB3SPRS,1,https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf,,
+13,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Male,J2,HID_JMP,Pin_Header_Straight_1x03_Pitch2.54mm,1,~,SJ1-3523N,
+14,USB mini/micro connector,USB_OTG,J1,USB_OTG,USB_Micro-B_Wuerth-629105150521_CircularHoles,1,https://katalog.we-online.de/em/datasheet/629105150521.pdf,629105150521,
+15,Ferrite bead,Ferrite_Bead,L1,1A,L_0805_HandSoldering,1,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS470-T&fileName=BK2125HS470-T_SS&mode=specSheetDownload,BK2125HS470-T,
+16,Resistor,R,R16 R17 R18 R19,1.02k,R_0805_HandSoldering,4,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,ERA-6AEB1021V,
+17,Resistor,R,R2 R5,1.5k,R_0805_HandSoldering,2,https://www.seielect.com/Catalog/SEI-rncp.pdf,RNCP0805FTD1K50,
+18,Resistor,R,R24 R25 R26,10R,R_0805_HandSoldering,3,https://www.seielect.com/Catalog/SEI-rncp.pdf,RNCP0805FTD10R0,
+19,Resistor,R,R6 R8,10k,R_0805_HandSoldering,2,https://www.seielect.com/Catalog/SEI-RNCF.pdf,RNCF0805DTE10K0,
+20,Resistor,R,R1,1M,R_0805_HandSoldering,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,ERA-6AEB105V,
+21,Resistor,R,R3 R4 R22 R23,22R,R_0805_HandSoldering,4,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf,RC0805FR-0722RL,
+22,Resistor,R,R27,47R,R_0805_HandSoldering,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,ERJ-6ENF47R0V,
+23,Resistor,R,R7,560R,R_0805_HandSoldering,1,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,RMCF0805JT560R,
+24,Resistor,R,R10 R11 R12 R13 R14 R15 R20 R21,887R,R_0805_HandSoldering,8,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf,RC0805FR-07887RL,
+25,,LM2662M,U6,LM2662M,LM2662M,1,http://www.ti.com/lit/ds/symlink/lm2662.pdf,LM2662M/NOPB,
+26,,OPA2134PA,U4 U5,OPA2134PA,SMDIP-8_W7.62mm,2,http://www.ti.com/lit/ds/symlink/opa2134.pdf,OPA2134PA,
+27,"24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28",PCM1794A,U2,PCM1794A,PCM1794ADBG4,1,http://www.ti.com/lit/ds/symlink/pcm1794a.pdf,PCM1794ADBR,
+28,,PCM2707PJTG4,U1,PCM2707PJTG4,PCM2707PJTG4,1,http://www.ti.com/lit/ds/symlink/pcm2706.pdf,PCM2707CPJT,
+29,"250mA High-Efficiency Step-Down Charge Pump Regulator, 3.3V Output Voltage, MSOP-10",TPS60501DGS,U3,TPS60501DGS,TPS60501DGSG4,1,http://www.ti.com/lit/ds/symlink/tps60503.pdf,TPS60501DGSR,
+30,Two pin crystal,Crystal,Y1,12Mhz,Crystal_SMD_5032-2pin_5.0x3.2mm,1,https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/CX5032GB_(CX-53F)_DS.pdf,CX5032GB12000H0PESZZ,
+
+
+
+
+
+Component Groups:,30
+Component Count:,70
+Fitted Components:,70
+Number of PCBs:,1
+Total components:,70
+Schematic Version:,0.2
+Schematic Date:,2018-09-20
+BoM Date:,23/09/2018 17:00:56
+Schematic Source:,F:\nextcloud\eagle_projects\headphone_dac_with_amp_v2\headphone_amp_v2.sch
+KiCad Version:,Eeschema (5.0.0)
