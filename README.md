@@ -15,7 +15,7 @@ to supply the operational amplifiers with +-5V.
 
 The project is realized with the open source EDA tool [KiCad](https://kicad-pcb.org/).
 
-With the current parts the whole project costs aroun 45€ at digikey. For details have a look at the BOM.csv or BOM.html
+With the current parts the whole project costs around 45€ at digikey. For details have a look at the BOM.csv or BOM.html
 
 ## Datasheets of used components
 [PCM2707](https://www.ti.com/lit/ds/symlink/pcm2706.pdf) USB Interface
