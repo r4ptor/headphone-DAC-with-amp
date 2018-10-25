@@ -23,7 +23,7 @@ With the current parts the whole project costs around 45€ at [Digikey](https:/
 
 [PCM1794A](http://www.ti.com/lit/ds/symlink/pcm1794a.pdf) 24-Bit, 192-kHz audio DAC
 
-[LP5907](hhttp://www.ti.com/lit/ds/symlink/lp5907.pdf) Low-noise LDO
+[LP5907](http://www.ti.com/lit/ds/symlink/lp5907.pdf) Low-noise LDO
 
 [LM2662M](http://www.ti.com/lit/ds/symlink/lm2662.pdf) Voltage converter
 
